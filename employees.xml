@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees_info>
+	<employee>
+		<personal_info>
+			<firstname>John</firstname>
+			<lastname>Doe</lastname>
+			<dob>1988-02-26</dob>
+			<gender>Male</gender>
+		</personal_info>
+		<employment_info>
+			<Position>Sales Executive</Position>
+			<Salary>$350</Salary>
+		</employment_info>
+		<contact_info>
+			<email>doejohn@hotmail.com</email>
+			<phone_no>1234567890</phone_no>
+		</contact_info>
+	</employee>
+	<employee>
+		<personal_info>
+			<firstname>Michael</firstname>
+			<lastname>Scott</lastname>
+			<dob>1975-07-02</dob>
+			<gender>Male</gender>
+		</personal_info>
+		<employment_info>
+			<Position>Regional Manager</Position>
+			<Salary>$500</Salary>
+		</employment_info>
+		<contact_info>
+			<email>mikescott@rediff.com</email>
+			<phone_no>1357248902</phone_no>
+		</contact_info>
+	</employee>
+	<employee>
+		<personal_info>
+			<firstname>Pamela</firstname>
+			<lastname>Beasely</lastname>
+			<dob>1989-11-05</dob>
+			<gender>Female</gender>
+		</personal_info>
+		<employment_info>
+			<Position>Receptionist</Position>
+			<Salary>$120</Salary>
+		</employment_info>
+		<contact_info>
+			<email>pambeasely@hotmail.com</email>
+			<phone_no>1112348134</phone_no>
+		</contact_info>
+	</employee>
+</employees_info>
