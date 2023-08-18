@@ -1,0 +1,40 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="employees_info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="employee" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="personal_info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="firstname"/>
+                    <xs:element type="xs:string" name="lastname"/>
+                    <xs:element type="xs:date" name="dob"/>
+                    <xs:element type="xs:string" name="gender"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="employment_info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Position"/>
+                    <xs:element type="xs:string" name="Salary"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="contact_info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="email"/>
+                    <xs:element type="xs:int" name="phone_no"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
